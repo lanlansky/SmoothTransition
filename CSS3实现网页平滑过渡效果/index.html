@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!--让IE以最高版本运行，来兼容CSS3-->
+	<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+	<!--使网页的宽度强制适应不同服务窗口的宽度（宽度自适），且用户不能够随意缩放网页-->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!--提供字体的网站，这样就可以在网站中使用链接中的字体，family=Josefin就是我们引用的字体-->
+	<link href="http://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>CSS3实现网页平滑过渡效果</title>
+</head>
+<body>
+
+
+<div class="container">
+
+<div class="st_container">
+	<input type="radio" name="radio-set" checked="checked" id="st_control_1">
+	<a href="#st_panel_1">Serendipity</a>
+	<input type="radio" name="radio-set"  id="st_control_2">
+	<a href="#st_panel_2">Happiness</a>
+	<input type="radio" name="radio-set"  id="st_control_3">
+	<a href="#st_panel_3">Tranquillity</a>
+	<input type="radio" name="radio-set"  id="st_control_4">
+	<a href="#st_panel_4">Positivity</a>
+	<input type="radio" name="radio-set"  id="st_control_5">
+	<a href="#st_panel_5">Passion</a>
+	<!--nav结束-->
+
+	<div class="st_scroll">
+	<section class="st_panel" id="st_panel_1">
+	<!--data-icon="H" 取出字体库字体-->
+	<div class="st_desc" data-icon="H"></div>
+	<h2>Serendipity</h2>
+	<p>Banksy adipisicing eiusmod banh mi sed. Squid stumptown est odd future nisi, commodo mlkshk pop-up adipisicing retro.</p>
+	</section>
+
+	<section class="st_panel st_color" id="st_panel_2">
+	<!--data-icon="H" 取出字体库字体-->
+	<div class="st_desc" data-icon="2"></div>
+	<h2>Happiness</h2>
+	<p>Art party readymade beard labore cosby sweater culpa. Art party whatever incididunt, scenester umami polaroid tofu.</p>
+	</section>
+
+	<section class="st_panel" id="st_panel_3">
+	<!--data-icon="H" 取出字体库字体-->
+	<div class="st_desc" data-icon="B"></div>
+	<h2>Tranquillity</h2>
+	<p>Sint aute occaecat id vice. Post-ironic fap pork belly next level godard, id fanny pack williamsburg forage truffaut.</p>
+	</section>
+
+	<section class="st_panel st_color" id="st_panel_4">
+	<!--data-icon="H" 取出字体库字体-->
+	<div class="st_desc" data-icon="x"></div>
+	<h2>Positivity</h2>
+	<p>Mixtape fap leggings art party, butcher authentic farm-to-table you probably haven't heard of them do labore cosby sweater.</p>
+	</section>
+
+	<section class="st_panel" id="st_panel_5">
+	<!--data-icon="H" 取出字体库字体-->
+	<div class="st_desc" data-icon="Ç"></div>
+	<h2>Passion</h2>
+	<p>Fixie ad odd future polaroid dreamcatcher, nesciunt carles bicycle rights accusamus mcsweeney's mumblecore nulla irony.</p>
+	</section>
+
+	</div>
+</div><!--st_container结束-->
+
+</div><!--container结束-->
+
+	
+</body>
+</html>
